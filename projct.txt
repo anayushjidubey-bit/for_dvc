@@ -1,0 +1,10 @@
+create a git repo and clone it into local
+create code.py and add code to it 
+do git add commit push
+create venv and activate (.venv\Scripts\activate)it and pip install dvc
+dvc init
+make s3 folder where data store
+run in terminal "dvc remote add -d myremote s3" for set location for dataversioning at s3 folder
+run in terminal "dvc add data/" 
+fix error and run again"dvc add data/"
+git commit and push 
